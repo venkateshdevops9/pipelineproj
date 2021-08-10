@@ -9,6 +9,14 @@ pipeline{
          echo 'git checkout'
             }
                    }
+     
+      stage ('maven'){
+
+      steps{
+
+          echo 'mvn package'
+            }
+                     }
 
          }
         }
